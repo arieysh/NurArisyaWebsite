@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arisya Shafie - My Portfolio</title>
+    <link rel="stylesheet" href="stylePortfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOMEPAGE</a></li>
+                <li><a href="Biodata.html">BIODATA</a></li>
+                <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="Videos.html">VIDEO</a></li>
+                <li><a href="Comment.html">COMMENT</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+	<section class="portfolio-section">
+        <div class="container">
+            
+            <div class="section-title">
+                <h1>My <span>Portfolio</span></h1>
+                <p>Explore my portfolio of visual stories across web design, programming, multimedia, and interactive tech.</p>
+            </div>
+
+            <div class="filter-menu">
+    <button class="filter-btn active" onclick="filterSelection('all')">All Work</button>
+    <button class="filter-btn" onclick="filterSelection('web')">Web Design</button>
+    <button class="filter-btn" onclick="filterSelection('prog')">Programming</button>
+    <button class="filter-btn" onclick="filterSelection('multi')">Multimedia</button>
+    <button class="filter-btn" onclick="filterSelection('tech')">Interactive Tech</button>
+</div>
+
+            <div class="portfolio-grid">
+				
+          <div class="portfolio-item web tech">      
+  <div class="portfolio-item web tech" onclick="openModal('Interactive Web Application', 'I designed and developed responsive websites using HTML, CSS, and basic JavaScript. These projects focus on clean layouts, user-friendly navigation, and consistent visual design. Through this work, I gained experience in structuring web content and applying design principles to create functional and attractive websites.', 'Skills: HTML, CSS, JavaScript, UI/UX Design, Responsive Layout', 'Image/pic13.png','Video/Website.mp4')">
+    <div class="image-box">
+        <img src="Image/pic21.png" alt="Project">
+        <div class="overlay">
+            <div class="overlay-text">
+				<h3>Interactive Web Application</h3>
+				<p><b>View Details</b></p>
+                <p>Click to see info</p>
+            </div>
+        </div>
+    </div>
+</div>
+				</div>
+				
+				
+<div class="portfolio-item multi">
+                <div class="portfolio-item multi" onclick="openModal('Digital Storytelling Video', 'I conceptualized, wrote, and produced this digital storytelling video from start to finish, including story development, visual design, audio editing, and final video production. This project demonstrates my ability to craft engaging narratives through digital media — combining visuals, sound, and storytelling techniques to communicate a compelling message.', 'Skills: Digital storytelling, Video editing and production, Script Writing, Multimedia Integration, Creactive Direction', 'Image/pic14.png', 'Video/StoryDigital.mp4')">
+    <div class="image-box">
+        <img src="Image/pic22.jpg" alt="Project">
+        <div class="overlay">
+            <div class="overlay-text">
+				<h3>Digital Storytelling Video</h3>
+                <p><b>View Details</b></p>
+                <p>Click to see info</p>
+            </div>
+        </div>
+    </div>
+</div>
+				</div>
+
+			  <div class="portfolio-item prog">
+                <div class="portfolio-item prog" onclick="openModal('Computer Graphics Programming', 'I developed this computer graphics project using programming in Code::Blocks. The project demonstrates the use of graphics concepts such as shapes, transformations, colors, and basic animation through code. By creating this visual output programmatically, I strengthened my understanding of graphics programming, logic, and rendering techniques.', 'Skills: C/C++ Programming, Code::Blocks, Graphic Logic & Rendering','Image/pic15.png','Video/ComputerGraphic.mp4')">
+    <div class="image-box">
+        <img src="Image/pic5.jpg" alt="Project">
+        <div class="overlay">
+            <div class="overlay-text">
+				<h3>Computer Graphics Programming</h3>
+                <p><b>View Details</b></p>
+                <p>Click to see info</p>
+            </div>
+        </div>
+    </div>
+</div>
+				</div>
+
+				<div class="portfolio-item prog">
+                <div class="portfolio-item prog" onclick="openModal('Android Mobile Application Development', 'I designed and developed a mobile application using Android Studio, focusing on application layout, functionality, and user interaction. This project demonstrates my understanding of mobile app development, interface design, and basic application logic through hands-on implementation.', 'Skills: Android Studio, Mobile Application Development, Java Programming, UI Layout Design, Application Logic', 'Image/pic16.png','Video/AndroidStudio.mp4')">
+    <div class="image-box">
+        <img src="Image/pic27.jpg" alt="Project">
+        <div class="overlay">
+            <div class="overlay-text">
+				<h3>Android Mobile Application Development</h3>
+                <p><b>View Details</b></p>
+                <p>Click to see info</p>
+            </div>
+        </div>
+    </div>
+</div>
+				</div>
+				
+				  <div class="portfolio-item multi">
+				<div class="portfolio-item multi" onclick="openModal('Motion Graphics Animation', 'I conceptualized, modeled, and animated this 3D video using Blender, demonstrating my skills in 3D modeling, animation, lighting, and rendering. This project reflects my ability to turn creative ideas into visual motion graphics using industry-standard 3D software.', 'Skills: Blender, 3D Modeling, Animation & Rendering, Motion Design, Visual Storytelling', 'Image/pic17.png', 'Video/Animation.mp4')">
+    <div class="image-box">
+        <img src="Image/pic11.jpg" alt="Project">
+        <div class="overlay">
+            <div class="overlay-text">
+				<h3>Motion Graphics Animation</h3>
+                <p><b>View Details</b></p>
+                <p>Click to see info</p>
+            </div>
+        </div>
+    </div>
+</div>
+				</div>
+				
+					  <div class="portfolio-item multi">
+				<div class="portfolio-item multi" onclick="openModal('3D Product Visualization', 'Created a realistic 3D product visualization using Blender. This project showcases my ability to model, texture, and render products with attention to detail and photorealistic lighting. It demonstrates skills in 3D design, visualization, and presentation for digital portfolios or marketing purposes.', 'Skills: 3D Modeling, Texturing & Materials, Lighting & Rendering', 'Image/pic26.png', 'Video/iphone.mp4')">
+    <div class="image-box">
+        <img src="Image/pic9.jpg" alt="Project">
+        <div class="overlay">
+            <div class="overlay-text">
+				<h3>3D Product Visualization</h3>
+                <p><b>View Details</b></p>
+                <p>Click to see info</p>
+            </div>
+        </div>
+    </div>
+</div>
+				</div>
+				
+				<div class="portfolio-item web">
+			  <div class="portfolio-item web" onclick="openModal('Mobile App UI Design', 'Designed the user interface for a mobile application as part of the System Analysis and Design subject. This project demonstrates my ability to create intuitive, user-friendly, and visually appealing app interfaces, incorporating user experience principles and modern design trends.', 'Skills: UI/UX Design, Wireframing & Prototyping, Design Tools', 'Image/pic19.png', 'Video/SAAD.mp4')">
+    <div class="image-box">
+        <img src="Image/pic8.jpg" alt="Project">
+        <div class="overlay">
+            <div class="overlay-text">
+				<h3>Mobile App UI Design</h3>
+                <p><b>View Details</b></p>
+                <p>Click to see info</p>
+            </div>
+        </div>
+    </div>
+</div>
+				</div>
+				
+				<div class="portfolio-item multi">
+				<div class="portfolio-item multi" onclick="openModal('Music Video Production', 'I created this music video using Adobe After Effects, designing and animating visual elements to match the music and enhance the viewing experience. This project demonstrates my skills in editing, animation, and visual effects tailored for music video content.', 'Skills: Motion Graphics & Visual Effects, Video Editing & Timing, Compositing & Animation, Creative Direction', 'Image/pic20.png', 'Video/VideoProduction.mp4')">
+    <div class="image-box">
+        <img src="Image/pic12.jpg" alt="Project">
+        <div class="overlay">
+            <div class="overlay-text">
+				<h3>Music Video Production</h3>
+                <p><b>View Details</b></p>
+                <p>Click to see info</p>
+            </div>
+        </div>
+    </div>
+</div>
+				</div>
+				
+				<div class="portfolio-item multi">
+				<div class="portfolio-item multi" onclick="openModal('Project 2D Animate', 'Created a 2D animation using Adobe Animate, focusing on character movement, timing, and visual storytelling. This project demonstrates my ability to design and animate smooth 2D motion while applying animation principles to produce engaging visual content.', 'Skills: 2D Animation, Character & Object Animation, Timing & Motion, Creative Design', 'Image/pic32.png', 'Video/Animate.mp4')">
+    <div class="image-box">
+        <img src="Image/pic28.jpg" alt="Project">
+        <div class="overlay">
+            <div class="overlay-text">
+				<h3>E-learning Platform</h3>
+                <p><b>View Details</b></p>
+                <p>Click to see info</p>
+            </div>
+        </div>
+    </div>
+</div>
+				</div>
+						
+
+            </div>
+        </div>
+    </section>
+	
+	<div id="portfolioModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <div class="modal-body">
+            <img id="modalImg" src="1" alt="Project Detail Image">
+            <div class="modal-text">
+                <h2 id="modalTitle">Title</h2>
+                <div class="accent-line"></div>
+                <p id="modalDesc">Description</p>
+				<div class="accent-line"></div>
+				<p id="modalSkill">Skill</p>
+				
+				<a id="modalVideoLink" href="#" class="video-btn">Watch Video</a>
+            </div>
+        </div>
+    </div>
+</div>
+	
+		<footer>
+        <div class="footer-container">
+            
+            <div class="footer-info">
+                <div class="footer-logo">Arieysh</div>
+                <p class="company-tagline">
+                    Where Creativity Meets Technology
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>NAVIGATION</h4>
+                <ul>
+                    <li><a href="Biodata.html">Biodata</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="Videos.html">Video</a></li>
+                    <li><a href="Comment.html">Comment</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4>ABOUT</h4>
+                <ul>
+                    <li><a href="Biodata.html">About Me</a></li>
+                    <li><a href="Biodata.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4>CONNECT</h4>
+                <div class="social-icons">
+                    <a href="https://wa.me/0175545539" target="_blank">
+					<i class="fab fa-whatsapp"></i></a>
+                    <a href="https://facebook.com/Arisya Shafie"><i class="fab fa-facebook"></i></a>
+                    <a href="https://tiktok.com/@arieysh4"><i class="fab fa-tiktok"></i></a>
+                    <a href="mailto:arieysh97@gmail.com"><i class="fa-solid fa-envelope"></i></a>   
+            </div>
+        </div>
+		</div>
+		
+        <div class="footer-bottom">
+            <p>© 2025 Arieysh. All rights reserved.</p>
+        </div>
+
+    </footer>
+	
+<script>
+    function filterSelection(category) {
+        // Get all portfolio items and filter buttons
+        var items = document.getElementsByClassName("portfolio-item");
+        var buttons = document.getElementsByClassName("filter-btn");
+
+        // 1. Handle Button Active State
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove("active");
+            // Check if this button was the one clicked
+            if (event && event.currentTarget === buttons[i]) {
+                buttons[i].classList.add("active");
+            }
+        }
+
+        // 2. Filter Items Logic
+        if (category === "all") category = ""; 
+
+        for (var i = 0; i < items.length; i++) {
+            // Remove the 'show' class first to reset
+            items[i].classList.remove("show");
+            
+            // Check if the item contains the specific category class
+            if (items[i].className.indexOf(category) > -1) {
+                items[i].classList.add("show");
+            }
+        }
+    }
+
+    // Modal logic (remains mostly the same but kept here for completeness)
+    function openModal(title, description, skill, imgSrc, videoUrl) {
+        document.getElementById("portfolioModal").style.display = "block";
+        document.getElementById("modalTitle").innerText = title;
+        document.getElementById("modalDesc").innerText = description;
+        document.getElementById("modalSkill").innerText = skill;
+        
+        const imgElement = document.getElementById("modalImg");
+        if(imgElement) {
+            imgElement.src = imgSrc; 
+        }
+    
+        const videoBtn = document.getElementById("modalVideoLink");
+        if (videoUrl) {
+            videoBtn.href = "Videos.html?play=" + encodeURIComponent(videoUrl);
+            videoBtn.style.display = "inline-block";
+        } else {
+            videoBtn.style.display = "none";
+        }
+    }
+
+    function closeModal() {
+        document.getElementById("portfolioModal").style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        let modal = document.getElementById("portfolioModal");
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    // Initialize the filter to show 'all' when page loads
+    window.onload = function() {
+        filterSelection('all');
+    };
+</script>
+	
+	</body>
+</html>
